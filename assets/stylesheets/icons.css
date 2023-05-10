@@ -1,0 +1,52 @@
+/* Font Awesome 6 Brands */
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'),
+       url('../fonts/fa-brands-400.ttf') format('truetype');
+}
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.fa-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 900;
+  font-size: 2em; 
+}
+.iconos {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los iconos */
+    align-items: center; /* Centra verticalmente los iconos */
+  }
+.rotate {
+  transition: all 0.3s ease-out;
+}
+.rotate:hover,
+.rotate:focus,
+.rotate:active {
+  animation: rotate 1s linear;
+}
+
+/* Iconos */
+.telegram:before { content: '\f2c6';  }
+.instagram:before { content: '\f16d'; }
+.github:before { content: '\f09b'; }
+.tiktok:before { content: '\e07b'; }
+.twitter-square:before { content: '\f081'; }
+.wpforms:before { content: '\f298'; }
+.tumblr-square:before { content: '\f174'; }
+.steam-square:before { content: '\f1b7' ; } 
+.linkedin:before { content: '\f08c'; }
+.soundcloud:before { content: '\f1be'; }
+.google-play:before { content: '\f3ab'; }
+.cpanel:before { content: '\f388'; }
+.foursquare:before { content: '\f180'; }
+.wikipedia-w:before { content: '\f266'; } 
+.buromobelexperte:before { content: '\f37f'}
+.spotify:before { content: '\f1bc'}
+.uncharted:before { content: '\e084'}
